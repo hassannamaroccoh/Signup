@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 55vw;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 0px rgb(88, 86, 86);
+}
+.icon{
+    display: flex;
+    width: 10%;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border-radius: 3rem;
+    margin-left: 20rem;
+    align-items: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+}
+
+input{
+    padding: .7rem;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid  black;
+}
+p{
+    color: darkblue;
+}
+.btn{
+    width: 20vw;
+    height: 5vh;
+    color: white;
+    background-color: darkblue;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
